@@ -14,7 +14,7 @@ header {
 }
 
 .textHeader {
-  color: #8b5e38;
+  color: #d1d1c6;
   font-weight: lighter;
   font-size: 26px;
   padding: 0 70px;
@@ -66,7 +66,7 @@ header {
 
   outline: none;
 
-  color: #8b5e38;
+  color: #d1d1c6;
 
   font-size: 20px;
 
@@ -74,7 +74,7 @@ header {
 }
 
 #searchIpt::placeholder {
-  color: #8b5e38;
+  color: #d1d1c6;
 
   font-size: 20px;
 
@@ -92,7 +92,7 @@ header {
 
 .SearchBox:hover > #searchIpt {
   width: 120px;
-  border-bottom: 1px solid #8b5e38;
+  border-bottom: 1px solid #d1d1c6;
 }
 
 /* MenuBars */
@@ -197,5 +197,6 @@ header {
     display: block;
     margin-right: -200px;
     margin-left: -150px;
+    margin-top: 20px;
   }
 }

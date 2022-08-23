@@ -1,8 +1,10 @@
 .Banner {
   width: 100vw;
   height: 1540px;
+  /* 
+  background-image: url(../../assets/images/Banner.svg); */
 
-  background-image: url(../../assets/images/Banner.svg);
+  background-image: radial-gradient(#521716, #090909);
 
   background-repeat: no-repeat;
   background-size: cover;

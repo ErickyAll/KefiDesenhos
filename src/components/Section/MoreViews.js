@@ -1,7 +1,7 @@
 import './MoreViews.css'
 import { useEffect, useState, useRef } from 'react'
 
-function MoreViews() {
+function Section() {
   const [data, setData] = useState([])
   const carousel = useRef(null)
 
@@ -69,4 +69,4 @@ function MoreViews() {
   )
 }
 
-export default MoreViews
+export default Section

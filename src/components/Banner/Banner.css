@@ -131,7 +131,7 @@
 
   .LogoKefi {
     width: 380px;
-    margin-left: -4px;
+    margin-left: -4vw;
     animation: rotationImg 4s infinite;
   }
 

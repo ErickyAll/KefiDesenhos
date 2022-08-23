@@ -1,0 +1,158 @@
+.Banner {
+  width: 100vw;
+  height: 1540px;
+
+  background-image: url(../../assets/images/Banner.svg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-areas:
+    'Title'
+    'Image'
+    'Title-Rodape';
+
+  justify-content: center;
+  align-items: center;
+}
+
+.Banner-Title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+
+  flex-direction: column;
+}
+
+.Banner-Title h1 {
+  grid-area: Title;
+
+  font-size: 70px;
+
+  margin: 0;
+  padding: 0;
+
+  color: #e1e1e1;
+  font-weight: lighter;
+
+  text-shadow: 5px 2px 1px black;
+}
+
+.Banner-Title p {
+  grid-area: Title;
+
+  font-size: 40px;
+
+  margin: 0;
+  padding: 0;
+
+  color: #dddd;
+
+  text-shadow: 2px 2px 1px black;
+}
+
+.LogoKefi {
+  grid-area: Image;
+  margin-top: -50px;
+  margin-left: 300px;
+
+  animation: rotationImg 4s infinite;
+}
+
+.Banner-Title2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -290px;
+}
+
+.Banner-Title2 h1 {
+  grid-area: Title-Rodape;
+
+  font-size: 70px;
+
+  margin: 0;
+  padding: 0;
+
+  color: #e1e1e1;
+  font-weight: lighter;
+  text-shadow: 5px 2px 1px black;
+}
+
+.Banner-Title2 p {
+  grid-area: Title-Rodape;
+
+  font-size: 40px;
+
+  margin: 0 200px;
+  padding: 0;
+
+  color: #dddd;
+  text-shadow: 2px 2px 1px black;
+}
+
+@keyframes rotationImg {
+  0% {
+    transform: rotateY(0deg);
+    filter: opacity(100%);
+  }
+
+  25% {
+    filter: opacity(80%);
+  }
+
+  50% {
+    filter: opacity(50%);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+    filter: opacity(100%);
+  }
+}
+
+@media all and (max-width: 767px) {
+  .Banner {
+    height: 800px;
+  }
+
+  .Banner-Title h1 {
+    font-size: 30px;
+    text-shadow: 5px 2px 1px black;
+  }
+  .Banner-Title p {
+    font-size: 23px;
+  }
+
+  .LogoKefi {
+    width: 380px;
+    margin-left: -4px;
+    animation: rotationImg 4s infinite;
+  }
+
+  .Banner-Title2 {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+
+  .Banner-Title2 h1 {
+    font-size: 37px;
+
+    color: #e1e1e1;
+    font-weight: lighter;
+    text-shadow: 5px 2px 1px black;
+  }
+
+  .Banner-Title2 p {
+    font-size: 19px;
+    margin: 0;
+    text-align: center;
+  }
+}

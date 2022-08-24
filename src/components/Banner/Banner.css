@@ -4,7 +4,7 @@
   /* 
   background-image: url(../../assets/images/Banner.svg); */
 
-  background-image: radial-gradient(#521716, #090909);
+  background-color: #a7a3a395;
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,10 +37,10 @@
   margin: 0;
   padding: 0;
 
-  color: #e1e1e1;
-  font-weight: lighter;
+  color: #0f0f0f;
+  font-weight: 500;
 
-  text-shadow: 5px 2px 1px black;
+  text-shadow: 1px 2px 1px #d5c871;
 }
 
 .Banner-Title p {
@@ -51,15 +51,15 @@
   margin: 0;
   padding: 0;
 
-  color: #dddd;
+  color: #0f0f0f;
 
-  text-shadow: 2px 2px 1px black;
+  text-shadow: 1px 1px 0px #d5c871;
 }
 
 .LogoKefi {
   grid-area: Image;
-  margin-top: -50px;
-  margin-left: 300px;
+  margin-top: -190px;
+  margin-left: 25vw;
 
   animation: rotationImg 4s infinite;
 }
@@ -81,9 +81,9 @@
   margin: 0;
   padding: 0;
 
-  color: #e1e1e1;
+  color: #0f0f0f;
   font-weight: lighter;
-  text-shadow: 5px 2px 1px black;
+  text-shadow: 2px 2px 1px #d5c871;
 }
 
 .Banner-Title2 p {
@@ -94,8 +94,8 @@
   margin: 0 200px;
   padding: 0;
 
-  color: #dddd;
-  text-shadow: 2px 2px 1px black;
+  color: #0f0f0f;
+  text-shadow: 2px 2px 1px #d5c871;
 }
 
 @keyframes rotationImg {
@@ -125,15 +125,15 @@
 
   .Banner-Title h1 {
     font-size: 30px;
-    text-shadow: 5px 2px 1px black;
   }
   .Banner-Title p {
     font-size: 23px;
   }
 
   .LogoKefi {
-    width: 480px;
-    margin-left: 5vw;
+    width: 300px;
+    margin-top: -50px;
+    margin-left: 15vw;
     animation: rotationImg 4s infinite;
   }
 
@@ -146,10 +146,6 @@
 
   .Banner-Title2 h1 {
     font-size: 37px;
-
-    color: #e1e1e1;
-    font-weight: lighter;
-    text-shadow: 5px 2px 1px black;
   }
 
   .Banner-Title2 p {

@@ -6,7 +6,7 @@ function Section() {
   const carousel = useRef(null)
 
   useEffect(() => {
-    fetch('http://localhost:3000/draws.json')
+    fetch('https://kefidesenhos.vercel.app/draws.json')
       .then(response => response.json())
       .then(setData)
   }, [])

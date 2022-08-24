@@ -2,7 +2,7 @@
 
 ## Disponivel aqui <a href="https://kefidesenhos.vercel.app/">KefiDesenhos.com</a>
 
->    <img src="./src/assets/images/KefiLogo.svg" style="background-color: #BE9341">
+>    <img src="./src/assets/images/kefibgg.jpg" style="background-color: #BE9341">
 
 
 ## Getting Started with Create React App

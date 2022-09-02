@@ -11,7 +11,11 @@ function Banner() {
           <p>Para compartilhar e prestigiar </p>
         </div>
 
-        <img src={KefiLogo} alt="Logo kefi" className="LogoKefi" />
+        <img src={KefiLogo} alt="Logo kefi" className="LogoKefi LogoKefi1" />
+
+        <img src={KefiLogo} alt="Logo kefi" className="LogoKefi LogoKefi2 " />
+
+        <img src={KefiLogo} alt="Logo kefi" className="LogoKefi LogoKefi3 " />
 
         <div className="Banner-Title2">
           <h1>Explore o mundo</h1>

@@ -1,8 +1,9 @@
-header {
+nav {
   background-color: #090909;
   height: 80px;
 
   display: flex;
+  align-items: center;
   align-items: center;
 }
 
@@ -161,7 +162,7 @@ header {
 }
 
 @media all and (max-width: 767px) {
-  header {
+  nav {
     height: 70px;
   }
 

@@ -11,22 +11,6 @@ function Section() {
       .then(setData)
   }, [])
 
-  const scrollRight = setTimeout(
-    e => {
-      carousel.current.scrollLeft += carousel.current.offsetWidth
-    },
-    5000,
-    10
-  )
-
-  const scrollLeft = setTimeout(
-    e => {
-      carousel.current.scrollLeft -= carousel.current.offsetWidth
-    },
-    1000,
-    10
-  )
-
   if (!data || !data.length) return null
 
   return (
@@ -53,11 +37,6 @@ function Section() {
               )
             })}
           </div>
-
-          {/* <div className="buttons">
-            <button onClick={handleLeftClick}></button>
-            <button onClick={handleRightClick}>right</button>
-          </div> */}
         </div>
 
         <div className="more">

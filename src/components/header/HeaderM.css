@@ -1,0 +1,71 @@
+.menu {
+  position: fixed;
+  /* referência viewport */
+  top: 0px;
+  /* coordenadas de posicinoamento */
+  left: -80%;
+  z-index: 100; /* controle de camada */
+
+  opacity: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+
+  width: 50%;
+  height: 100%;
+
+  padding: 20px 50px;
+  background-image: linear-gradient(to bottom, black, #381313);
+  border-radius: 0 0 190px;
+  transition: left 0.4s, opacity 0.5s;
+}
+
+.SearchBoxM {
+  margin-bottom: 40px;
+  margin-top: -80px;
+}
+
+#searchIptM {
+  width: 120px;
+
+  border: none;
+
+  border-bottom: 1px solid #d1d1c6;
+
+  padding: 0 5px;
+
+  background-color: transparent;
+
+  outline: none;
+
+  color: #d1d1c6;
+
+  font-size: 30px;
+
+  transition: 0.5s;
+}
+
+#searchIptM::placeholder {
+  color: #d1d1c6;
+
+  font-size: 25px;
+
+  font-family: 'Italiana';
+}
+
+.SearchLabelM {
+  height: 40px;
+}
+
+.menu a {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-left: 3px dotted #aab0ae;
+  font-size: 1.7rem;
+  color: #aab0ae;
+}
+
+.showMenu {
+  left: 0 !important;
+  opacity: 1 !important; /* visível */
+}

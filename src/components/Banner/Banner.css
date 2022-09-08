@@ -1,5 +1,4 @@
 .Banner {
-  width: 100vw;
   height: 1540px;
   /* 
   background-image: url(../../assets/images/Banner.svg); */
@@ -63,7 +62,7 @@
 
 .LogoKefi1 {
   margin-top: -30vh;
-  margin-left: 25vw;
+  margin-left: 24vw;
 }
 
 .LogoKefi2 {
@@ -71,7 +70,7 @@
 }
 
 .LogoKefi3 {
-  margin-left: 165vh;
+  margin-left: 150vh;
   width: 400px;
 }
 

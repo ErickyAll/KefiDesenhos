@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@100&family=Roboto+Slab:wght@300;400&family=Roboto:ital,wght@0,100;0,400;1,100&family=Shadows+Into+Light&family=Teko:wght@300&family=Titillium+Web:wght@200;300;400&display=swap');
 
 body {
+  background-color: #090909;
   margin: 0;
   box-sizing: border-box;
   padding: 0;

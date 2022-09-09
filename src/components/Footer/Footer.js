@@ -36,17 +36,56 @@ export default function Footer() {
         </div>
       </section>
       <footer>
-        <img
-          src={Instagram}
-          alt="Instagram Logo"
-          className="imgSocialMedia"
-        ></img>
-        <img
-          src={Linkedin}
-          alt="Linkedin Logo"
-          className="imgSocialMedia"
-        ></img>
-        <img src={GitHub} alt="GitHub Logo" className="imgSocialMedia"></img>
+        <div className="siteInfo">
+          <div className="row">
+            <div className="services">
+              <h3>Services</h3>
+              <ul>
+                <li>
+                  <a href="#">Web design</a>
+                </li>
+                <li>
+                  <a href="#">Development</a>
+                </li>
+                <li>
+                  <a href="#">Hosting</a>
+                </li>
+              </ul>
+            </div>
+            <div className="about">
+              <h3>About</h3>
+              <ul>
+                <li>
+                  <a href="#">Company</a>
+                </li>
+                <li>
+                  <a href="#">Team</a>
+                </li>
+                <li>
+                  <a href="#">Careers</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="company">
+            <h3>Kefi Desenhos</h3>
+            <p>
+              Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus
+              ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique
+              lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.
+            </p>
+          </div>
+          <p className="copyright">KefiDesenhos © 2021</p>
+        </div>
+        <div className="socialMedia">
+          <img
+            src={Instagram}
+            alt="Instagram Logo"
+            className="imgSocialMedia"
+          />
+          <img src={Linkedin} alt="Linkedin Logo" className="imgSocialMedia" />
+          <img src={GitHub} alt="GitHub Logo" className="imgSocialMedia" />
+        </div>
       </footer>
     </main>
   )

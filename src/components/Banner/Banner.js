@@ -6,7 +6,9 @@ function Banner() {
     <main>
       <div className="Banner">
         <div className="Banner-Title">
-          <h1>Sua galeria de Arte Online</h1>
+          <h1>
+            <span>Sua</span> Galeria de Arte Online
+          </h1>
           <br />
           <p>Para compartilhar e prestigiar </p>
         </div>

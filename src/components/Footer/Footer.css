@@ -2,6 +2,7 @@ section {
   background-image: url(../../assets/images/BackgroundFooter.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: -1px;
 
   height: 1200px;
 
@@ -104,11 +105,107 @@ section {
 
 footer {
   background-color: #010101;
+}
+
+.socialMedia {
+  background-color: #010101;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: -1px;
 
   height: 195px;
+}
+
+.siteInfo {
+  margin-top: -20px;
+  height: 500px;
+  background-color: #070707;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services {
+  margin-right: 300px;
+
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row h3 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.row ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -30px;
+  list-style: none;
+  line-height: 2;
+  font-size: 1.2em;
+}
+
+.row a {
+  text-decoration: none;
+  color: #909090;
+}
+
+.row ul a:hover {
+  opacity: 0.5;
+}
+
+.about {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  width: 50%;
+}
+
+.company h3 {
+  color: aliceblue;
+  font-size: 2em;
+}
+
+.company p {
+  margin-top: -10px;
+  color: #909090;
+  font-size: 1.2em;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 1em;
+  margin-bottom: 0;
+  color: #f0f0f0;
 }
 
 @media all and (max-width: 767px) {
@@ -167,5 +264,26 @@ footer {
 
   .imgSocialMedia {
     height: 50px;
+  }
+
+  .siteInfo {
+    height: 650px;
+    margin-top: -1px;
+  }
+
+  .services {
+    margin-right: 100px;
+  }
+
+  .row h3 {
+    font-size: 1.7em;
+  }
+
+  .row ul {
+    font-size: 1.2em;
+  }
+
+  .company h3 {
+    font-size: 1.7em;
   }
 }

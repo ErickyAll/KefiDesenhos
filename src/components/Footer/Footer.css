@@ -120,7 +120,7 @@ footer {
 .siteInfo {
   margin-top: -20px;
   height: 500px;
-  background-color: #070707;
+  background-image: radial-gradient(#070707, #010101);
 
   display: flex;
   justify-content: center;
@@ -206,6 +206,11 @@ footer {
   font-size: 1em;
   margin-bottom: 0;
   color: #f0f0f0;
+}
+
+.imgSocialMedia:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 @media all and (max-width: 767px) {

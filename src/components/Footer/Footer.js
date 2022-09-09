@@ -78,13 +78,26 @@ export default function Footer() {
           <p className="copyright">KefiDesenhos © 2021</p>
         </div>
         <div className="socialMedia">
-          <img
-            src={Instagram}
-            alt="Instagram Logo"
-            className="imgSocialMedia"
-          />
-          <img src={Linkedin} alt="Linkedin Logo" className="imgSocialMedia" />
-          <img src={GitHub} alt="GitHub Logo" className="imgSocialMedia" />
+          <a href="https://www.instagram.com/kefidesenhos/" target="_blank">
+            <img
+              src={Instagram}
+              alt="Instagram Logo"
+              className="imgSocialMedia"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/%C3%A9rick-almeida/"
+            target="_blank"
+          >
+            <img
+              src={Linkedin}
+              alt="Linkedin Logo"
+              className="imgSocialMedia"
+            />
+          </a>
+          <a href="https://github.com/ErickyAll" target="_blank">
+            <img src={GitHub} alt="GitHub Logo" className="imgSocialMedia" />{' '}
+          </a>
         </div>
       </footer>
     </main>

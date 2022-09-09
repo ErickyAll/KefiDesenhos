@@ -3,7 +3,7 @@
   /* 
   background-image: url(../../assets/images/Banner.svg); */
 
-  background-color: #909090;
+  background-image: radial-gradient(#909090, #505050);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,7 +61,7 @@
 
 .LogoKefi1 {
   margin-top: -30vh;
-  margin-left: 27vw;
+  margin-left: 26vw;
 }
 
 .LogoKefi2 {
@@ -70,7 +70,7 @@
 }
 
 .LogoKefi3 {
-  margin-left: 150vh;
+  margin-left: 155vh;
   width: 400px;
 }
 

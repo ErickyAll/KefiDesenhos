@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <main>
       <section>
-        <div className="main">
+        <div className="main" data-aos="fade-left">
           <div className="filter">
             <label>
               Filtrar
@@ -18,25 +18,25 @@ export default function Footer() {
             <hr />
           </div>
           <div className="drawings">
-            <div className="drawing dr1 ">
+            <div className="drawing dr1 " data-aos="fade-up">
               <h1>Polvo com olhos @Dududedu</h1>
             </div>
-            <div className="drawing dr2">
+            <div className="drawing dr2" data-aos="fade-right">
               <h1>Olho na mão @Dududedu</h1>
             </div>
           </div>
           <div className="drawings">
-            <div className="drawing dr3">
+            <div className="drawing dr3" data-aos="fade-left">
               <h1>Peixe sem olho @Dududedu</h1>
             </div>
-            <div className="drawing dr4">
+            <div className="drawing dr4" data-aos="fade-right">
               <h1>Peixe olhudo @Dududedu</h1>
             </div>
           </div>
         </div>
       </section>
       <footer>
-        <div className="siteInfo">
+        <div className="siteInfo" data-aos="fade-up-right">
           <div className="row">
             <div className="services">
               <h3>Services</h3>
@@ -77,7 +77,7 @@ export default function Footer() {
           </div>
           <p className="copyright">KefiDesenhos © 2021</p>
         </div>
-        <div className="socialMedia">
+        <div className="socialMedia" data-aos="fade-up">
           <a href="https://www.instagram.com/kefidesenhos/" target="_blank">
             <img
               src={Instagram}

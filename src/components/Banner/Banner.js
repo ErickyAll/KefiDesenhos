@@ -13,13 +13,18 @@ function Banner() {
           <p>Para compartilhar e prestigiar </p>
         </div>
 
-        <img src={KefiLogo} alt="Logo kefi" className="LogoKefi LogoKefi1" />
+        <img
+          src={KefiLogo}
+          alt="Logo kefi"
+          className="LogoKefi LogoKefi1"
+          data-aos="fade-up"
+        />
 
         <img src={KefiLogo} alt="Logo kefi" className="LogoKefi LogoKefi2 " />
 
         <img src={KefiLogo} alt="Logo kefi" className="LogoKefi LogoKefi3 " />
 
-        <div className="Banner-Title2">
+        <div className="Banner-Title2" data-aos="zoom-in-up">
           <h1>Explore o mundo</h1>
           <br />
           <p>

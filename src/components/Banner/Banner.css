@@ -1,5 +1,5 @@
 .Banner {
-  height: 1540px;
+  height: 1940px;
   /* 
   background-image: url(../../assets/images/Banner.svg); */
 
@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 180px;
 
   flex-direction: column;
 }
@@ -60,7 +60,7 @@
 }
 
 .LogoKefi1 {
-  margin-top: -30vh;
+  margin-top: -35vh;
   margin-left: 26vw;
 }
 
@@ -80,7 +80,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin-top: -290px;
+  margin-top: -310px;
 }
 
 .Banner-Title2 h1 {

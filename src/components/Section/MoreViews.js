@@ -15,13 +15,13 @@ function Section() {
 
   return (
     <section>
-      <div className="section">
+      <div className="section" data-aos="fade-up">
         <div className="views">
           <a href="#">Mais vistos</a>
           <hr className="hr1" />
         </div>
 
-        <div className="container">
+        <div className="container" data-aos="fade-up">
           <div className="carousel" ref={carousel}>
             {data.map(item => {
               const { id, author, image } = item

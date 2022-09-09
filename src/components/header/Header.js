@@ -6,7 +6,7 @@ import './HeaderM.css'
 function Header() {
   return (
     <div>
-      <header>
+      <header data-aos="fade-up">
         <nav>
           <div className="headerDesktop">
             <a className="textHeader1 textHeader">Sobre</a>

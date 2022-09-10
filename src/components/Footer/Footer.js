@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <main>
       <section>
-        <div className="main" data-aos="fade-left">
+        <div className="main" data-aos="fade-right">
           <div className="filter">
             <label>
               Filtrar
@@ -18,7 +18,7 @@ export default function Footer() {
             <hr />
           </div>
           <div className="drawings">
-            <div className="drawing dr1 " data-aos="fade-up">
+            <div className="drawing dr1 " data-aos="fade-right">
               <h1>Polvo com olhos @Dududedu</h1>
             </div>
             <div className="drawing dr2" data-aos="fade-right">
@@ -26,7 +26,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="drawings">
-            <div className="drawing dr3" data-aos="fade-left">
+            <div className="drawing dr3" data-aos="fade-up">
               <h1>Peixe sem olho @Dududedu</h1>
             </div>
             <div className="drawing dr4" data-aos="fade-right">

@@ -77,7 +77,7 @@ export default function Footer() {
           </div>
           <p className="copyright">KefiDesenhos © 2021</p>
         </div>
-        <div className="socialMedia" data-aos="fade-up">
+        <div className="socialMedia" data-aos="fade-right">
           <a href="https://www.instagram.com/kefidesenhos/" target="_blank">
             <img
               src={Instagram}

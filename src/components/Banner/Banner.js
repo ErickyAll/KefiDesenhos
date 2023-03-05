@@ -30,9 +30,6 @@ function Banner() {
             seus desenhos e ilustrações online, além de ter a oportunidade de
             interagir com outros artistas e receber feedback sobre seu trabalho.
             <br />
-            No KefiDesenhos, queremos que você se sinta inspirado e motivado a
-            criar cada vez mais.
-            <br />
             Então, não hesite em fazer o upload de suas criações e comece a
             explorar tudo o que o KefiDesenhos tem a oferecer.
             <br />

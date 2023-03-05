@@ -35,7 +35,7 @@ function Header() {
             <div className="checkbox">
               <input type="checkbox" id="toggle" />
               <div className="checkbox-wrapper">
-                <label className="checkbox" for="toggle">
+                <label className="checkbox" htmlfor="toggle">
                   <div className="trace"></div>
                   <div className="trace"></div>
                   <div className="trace"></div>

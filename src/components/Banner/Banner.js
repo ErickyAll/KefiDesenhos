@@ -20,10 +20,6 @@ function Banner() {
           data-aos="fade-up"
         />
 
-        <img src={KefiLogo} alt="Logo kefi" className="LogoKefi LogoKefi2 " />
-
-        <img src={KefiLogo} alt="Logo kefi" className="LogoKefi LogoKefi3 " />
-
         <div className="Banner-Title2" data-aos="zoom-in-up">
           <h1>Explore o mundo</h1>
           <br />
